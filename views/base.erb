@@ -1,0 +1,23 @@
+<!-- views/base.erb -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Ruby Web App</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <h1>Hello, Ruby web application!</h1>
+  
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <%= yield %>
+  
+  <script src="/js/script.js"></script>
+</body>
+</html>
+    
